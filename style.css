@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
+    Font-size: 18px
+}
+body {
+    background-image: url(images/bg-header-desktop.png);
+    /* background-position: center center; */
+    background-repeat: no-repeat;
+    background-size: inherit;
+}
+.history {
+    text-align: center;
+    padding: 3rem 0;
+}
+.header-btn {
+    display: flex;
+    justify-content: center;
+}
+.click-btn {
+    padding: 1rem;
+}
+.history-desktop-img {
+    /* max-width: 100%; */
+    max-width: 5rem;
+}
+.history-para-clipboard {
+    margin: auto;
+    max-width: 481px;
+    padding: 0 0 23px 0;
+    line-height: 1.5;
+    color: #aaaeb1;
+}
+.history-copys {
+    padding: 19px 0;
+    color: #51585e;
+}
+button.btn-ios {
+    padding: 13px 32px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0rem 4px #afa7a7;
+}
+.btn-mac {
+    padding: 13px 32px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0rem 4px #7d5ddb;
+}
+.head-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+section.container {
+    display: flex;
+    justify-content: center;
+}
+.container-snippets {
+    max-width: 38rem;
+    text-align: center;
+}
+.snippets {
+    padding: 3rem 0 21px 0;
+    color: #51585e;
+}
+.container-clipboard,.computer-clipboard,.device-boost{
+    line-height: 1.5;
+    color: #aaaeb1;
+}
+.main{
+    padding: 4rem 0;
+    display: flex;
+    gap: 132px;
+}
+.main-h-article{
+    padding: 0.5rem 0;
+    color: #51585e;
+}
+.article-application,.iCloud-instantly,.article-retrieve {
+    color: #aaaeb1;
+}
+.three {
+    max-width: 344px;
+    line-height: 1.5;
+}
+.article-search,.article-iCloud,.article-complete {
+    padding: 2rem 0;
+}
+.anywhere {
+    max-width: 599px;
+    text-align: center;
+    margin: auto;
+    line-height: 1.5;
+}
+.Access-Clipboard {
+    padding: 1rem 0;
+    color: #51585e;
+}
+.device{
+    text-align: center;
+    padding: 8rem;
+}
+.device-workflow {
+    padding: 1rem;
+    color: #51585e;
+}
+.list-icon{
+ display: flex;
+}
+.blacklist-icon,.text-icon,.preview-icon{
+    max-width: 22rem;
+    text-align: center;
+    color: #aaaeb1;
+}
+.list-icons {
+    display: flex;
+    justify-content: center;
+}
+.blacklist-create{
+    padding: 1rem;
+    color: #51585e;
+}
+.text-plain,.preview-sneak{
+    padding: 1.5rem;
+    color: #51585e;
+}
+.blacklist-source{
+    line-height: 1.5;
+}
+.text-formating,.preview-access{
+    line-height: 1.5rem;
+}
+.blacklist-source {
+    line-height: 1.5;
+    padding: 7px;
+}
+.search-images {
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem;
+}
+.Available-ios-mac {
+    margin: auto;
+    max-width: 42rem;
+    text-align: center;
+}
+.ios-mac-appstore {
+    padding: 1rem;
+    line-height: 1.7;
+    color: #aaaeb1;
+}
+.Download-ios-btn{
+    padding: 13px 32px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0rem 4px #afa7a7;
+}
+.Download-mac-btn{
+    padding: 13px 32px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0rem 4px #8551c0;
+}
+.downloade-link {
+    justify-content: center;
+    display: flex;
+    gap: 1rem;
+    padding: 2rem;
+}
+.ios-link {
+    text-decoration: none;
+    color: #fff;
+}
+.ios-mac {
+    font-weight: bolder;
+    font-size: 25px;
+    color: #51585e;
+}
+.foot {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0 0;
+    background-color: #f5f6f8;
+}
+.unorder {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+.list-link {
+    text-decoration: none;
+    line-height: 2.5;
+}
+.fotter-right {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+@media all and (max-width: 375px) {
+    .main{
+        padding: 4rem 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .three {
+        max-width: 344px;
+        line-height: 1.5;
+        text-align: center;
+    }
+    .device {
+        text-align: center;
+        /* padding: 8rem; */
+        padding: 5rem 0;
+    }
+    .list-icons {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .search-images {
+        display: flex;
+        justify-content: space-between;
+        padding: 5rem;
+        flex-direction: column;
+        row-gap: 3rem;
+    }
+    .downloade-link {
+        justify-content: center;
+        display: flex;
+        gap: 1rem;
+        padding: 2rem;
+        flex-direction: column;
+    }
+    .foot {
+        display: flex;
+        justify-content: space-around;
+        padding: 2rem 0 0;
+        background-color: #f5f6f8;
+        flex-direction: column;
+        text-align: center;
+    }
+    .unorder {
+        list-style: none;
+        display: flex;
+        /* gap: 3rem; */
+        flex-direction: column;
+    }
+    .fotter-right {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        justify-content: center;
+    }
+    .history {
+        text-align: center;
+        padding: 0rem 0;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: inherit;
+    }
+    .header-btn {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    img {
+        max-width: 100%;
+    }
+} 
